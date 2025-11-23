@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(92, 206, 241);
+}
+
+#header {
+    background-color:#138b8e;
+}
+
+#main-content {
+    background-color: orange;
+    min-height: 70vh;
+    
+}
+#sidebar {
+    background-color: rgb(57, 201, 57);
+    min-height: 70vh;
+}
+.box-size {
+    height: 250px;
+    width: 250px;
+}
+
+#main-row .col-lg-9, #main-row .col-lg-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#card-row .card {
+    min-height: 350px;
+}
+.rounded-corner {
+    border-radius: 15px;
+}
+
+#footer {
+    background-color:#138b8e;
+}
+
+@media (max-width: 992px) {
+    .box-size {
+        height: 250px;
+        width: 100px;  
+    }
+}

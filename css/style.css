@@ -1,0 +1,44 @@
+/* body::before{
+    display: block;
+    content: '';
+    height: 72px;
+} */
+
+#instructors .custom-height {
+  height: 300px;
+}
+/* @media(max-width: 768) {
+    #main-content {
+        min-height: 800px;
+    }
+} */
+
+.content-top-left {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  z-index: 10;
+  padding: 5px;
+  border-radius: 5px;
+}
+.content-top-right {
+  position: absolute;
+  top: 2px;
+  right: 20px;
+  z-index: 10;
+  padding: 5px;
+  border-radius: 5px;
+}
+.navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+@media (min-width: 768px) {
+    .navbar-collapse {
+        position: static;
+    }
+}
